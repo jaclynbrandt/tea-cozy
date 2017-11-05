@@ -5,14 +5,19 @@ body {
   background-color: black;
   opacity: 0.9;
   justify-content: center;
+
 }
 
-.header {
+header {
   display: flex;
   height: 69px;
+  width: 100%;
   border-bottom: 1px solid seashell;
   background-color: black;
+  position: fixed;
 }
+
+
 
 .logo {
   display: inline-flex;
@@ -34,6 +39,20 @@ nav {
 
 }
 
+h2 {
+  font-size: h2;
+  color: seashell;
+  align-content: center;
+  justify-content: center;
+}
+
+h4 {
+  font-size: h4;
+  color: seashell;
+  align-content: center;
+    justify-content: center;
+}
+
 a:link {
   color: seashell;
 }
@@ -45,4 +64,156 @@ a:visited {
 li {
    display: inline;
    padding-right: 30px;
+}
+
+.mission-container {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mission-text {
+display: inline-block;
+background-color: black;
+width: 100%;
+height: auto;
+text-align: center;
+}
+
+.mission-img {
+  background-image: url(../resources/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  background-position: center;
+  background-attachment: fixed;
+  align-items: center;
+}
+
+.tea-container {
+  display: flex;
+  height: 100%;
+  width: 1000px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+
+}
+
+.tea-text {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.tea-img {
+  display: flex;
+  height: 100%;
+  width: 1000px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.berry {
+
+width: 100%
+height: auto;
+margin: 10px 0px;
+align-items: center;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 10px;
+justify-content: center;
+
+}
+
+.spiced {
+  width: 100%
+  height: auto;
+  margin: 10px;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  justify-content: center;
+
+}
+
+.donut {
+  width: 100%
+  height: auto;
+  margin: 10px;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.myrtle {
+  width: 100%
+  height: auto;
+margin: 10px;
+align-items: center;
+margin-left: 200px;
+margin-right: 30px;
+margin-bottom: 10px;
+justify-content: center;
+
+}
+
+
+.bedford {
+  width: 100%
+  height: auto;
+  margin: 10px;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 200px;
+  margin-bottom: 10px;
+  justify-content: center;
+
+}
+
+#tea-img-text {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.locations-container {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.locations-img {
+  background-image: url(../resources/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  background-position: center;
+  background-attachment: fixed;
+  align-items: center;
+}
+
+.locations-text {
+display: inline-block;
+width: 100%;
+height: auto;
+text-align: center;
 }

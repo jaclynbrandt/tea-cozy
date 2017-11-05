@@ -50,7 +50,7 @@ h4 {
   font-size: h4;
   color: seashell;
   align-content: center;
-    justify-content: center;
+  justify-content: center;
 }
 
 a:link {
@@ -205,15 +205,103 @@ justify-content: center;
   background-repeat: no-repeat;
   height: 500px;
   width: 1200px;
-  display: flex;
+  display: block;
   background-position: center;
-  background-attachment: fixed;
   align-items: center;
 }
 
 .locations-text {
-display: inline-block;
+display: flex;
 width: 100%;
 height: auto;
-text-align: center;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+}
+
+.locations-box {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-1 {
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin: 15px 40px 60px 80px;
+
+
+}
+
+.box-2 {
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin: 15px 40px 60px 40px;
+
+}
+
+.box-3 {
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin: 15px 80px 60px 40px;
+
+}
+
+h3 {
+  font-size: h3;
+  color: seashell;
+  align-content: center;
+  justify-content: center;
+
+  opacity: 1.0;
+}
+
+.footer {
+  display: block;
+  height: 300px;
+  width: 1200px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 20px;
+
+}
+
+h5 {
+  font-size: h5;
+  color: seashell;
+  align-content: center;
+  justify-content: center;
+  opacity: 1.0;
+}
+
+.footer-text {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+}
+
+.footer-year {
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: auto;
 }
